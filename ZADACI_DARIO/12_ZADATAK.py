@@ -14,7 +14,9 @@ print(a[::-1]) #nije u zadatku
 rij= a.split()
 r=rij[-1]
 print(rij[-1])
-print(r.removesuffix("ovima"))
+#endswith
+
+
 
 #string je niz podataka, tj, znakovni niz, kako bi se u varijable mogao spremati tekst, 
 # označava se dvostrukim ili jednostrukim navodnim znacima
@@ -23,8 +25,10 @@ print(r[0]) #pocetno slovo je T
 
 print(type(r))  #tip podatka
 
-endswith???
+print(r[-1])
 
+
+print(len(r))
 
 
 

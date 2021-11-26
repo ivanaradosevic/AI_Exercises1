@@ -6,5 +6,5 @@
 
 a= "abcdefghijklmno"
 duljina=len(a)
-print(a[0:int(duljina/2)])
+print(a[0:int(duljina//2)])
 

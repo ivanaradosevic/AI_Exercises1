@@ -46,7 +46,7 @@ print("brojevi veći od medijana su:", lista1, "brojevi manji od medijana su: ",
 new_li=[]
 dp= min*10/100
 for s in lista:
-    if s>min-dp and s<min+dp:
+    if s>min-dp and s<min+dp :              
         new_li.append(s)
 print(new_li)
 
